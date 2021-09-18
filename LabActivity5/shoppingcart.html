@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>shopping cart</title>
+        <style>
+            body{
+                background-color: aqua;
+            }
+            .mytitle{
+                font-size: 30px;
+                text-align: center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            .selector{
+                text-align: center;
+            }
+            .cost{
+                font-family: Consolas, monaco, monospace;;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='mytitle'>Shopping Cart</div>
+        <br><br><br><br><div class='selector'>
+            <form>
+                <label>TextBooks</label>
+                <select id='textbooks'>
+                    <option>C&Ds</option>
+                    <option>Ads</option>
+                    <option>JAVA</option>
+                </select>
+                <br><br>
+                <label>Quantity</label>
+                <input type="number"><br><br>
+                <a href='payments.html'><input type="button" value="ok"></a>
+                <br><br><p class="cost">Cost of one book is "500" + shipping "100"</p>
+            </form>
+        </div>
+    </body>
+</html>
